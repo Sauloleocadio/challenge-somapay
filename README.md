@@ -65,6 +65,9 @@ $ git clone https://github.com/Sauloleocadio/challenge-somapay.git
 $ cd challenge-somapay
 
 # Instale as dependências
+$ criar um arquivo .env no diretório com as variáveis de ambiente com as key do firebase e da api da marvel
+
+# Instale as dependências
 $ yarn
 
 # Execute a aplicação
