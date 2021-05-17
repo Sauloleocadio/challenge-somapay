@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+<h3 align="center">
+  Desafio SOMAPAY.
+</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>Esse desafio foi feito a partir dos requisitos pedidos pela a empresa baseado na api <a href="https://developer.marvel.com/">
+  https://developer.marvel.com/</a></p>
 
-## Available Scripts
+<blockquote align="center">“Aprender é a única coisa de que a mente nunca se cansa, nunca tem medo e nunca se arrepende”!</blockquote>
 
-In the project directory, you can run:
+<p align="center">
 
-### `yarn start`
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p align="center">
+  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://somapay.netlify.app">Link do deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Sauloleocadio/challenge-softplan#-demonstra%C3%A7%C3%A3o">Demonstração</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Sauloleocadio/challenge-softplan#-pr%C3%A9-requisitos">Pré-requisito</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Sauloleocadio/challenge-softplan#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Sauloleocadio/challenge-softplan#-licen%C3%A7a">Licença</a>
+</p>
 
-### `yarn test`
+## 🏆 Sobre o desafio
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O teste que consiste em desenvolver uma aplicação React.js que consome a API da Marvel (https://developer.marvel.com) para listar os quadrinhos (comics). Ao clicar em um quadrinho, deve ser exibido o detalhe do quadrinho. Dentro da tela do detalhe do quadrinho, também deve ser exibido o detalhe do personagem principal do quadrinho. O layout do site fica por sua conta.
 
-### `yarn build`
+Também é necessário consumir uma api de autenticação (Github por exemplo) e tanto a listagem quanto os detalhes dos quadrinhos só podem ser acessados uma vez que esteja logado, então deve haver uma tela de login também.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Seu Projeto deve ser em React
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Você deve usar o React Router (Use Rotas protegidas de acesso não autenticado)
+- Use hooks customizados (onde fizer sentido - Bônus)
+- Use a API Context (onde fizer sentido - Bônus)
+- Use o Redux
+- Você deve usar algum sistema de autenticação (Github, Facebook, Google, etc)
+- Exiba o nome e o email do usuário em algum lugar da página, ex. no header
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Informações importantes
 
-### `yarn eject`
+1. Segue o link de acesso ao deploy [DESAFIO SOFTPLAN](https://somapay.netlify.app).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## ✅ Demonstração
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="https://github.com/Sauloleocadio/challenge-somapay/blob/master/src/assets/systemone.png" />
+<img src="https://github.com/Sauloleocadio/challenge-somapay/blob/master/src/assets/systemtwo.png" />
+<img src="https://github.com/Sauloleocadio/challenge-somapay/blob/master/src/assets/systemthree.png" />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## ⚙ Pré-requisitos
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e/ou [Yarn](https://yarnpkg.com/).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-## Learn More
+- Possuir contas na [Netlify](https://app.netlify.com/) para deploys de front
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📗 Rodando a Aplicação (web)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# Clone este repositório
+$ git clone https://github.com/Sauloleocadio/challenge-somapay.git
 
-### Code Splitting
+# Navegue até a pasta
+$ cd challenge-somapay
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Instale as dependências
+$ yarn
 
-### Analyzing the Bundle Size
+# Execute a aplicação
+$ yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📎 Features
 
-### Making a Progressive Web App
+- [x] Login de usuário
+- [x] Listagem de quadrinhos
+- [x] Detalhamento completo dos quadrinhos e personagens principais
+- [x] Conexao com github e gmail com firebase
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🚀 Tecnologias
 
-### Advanced Configuration
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- React
+- React-Redux
+- Redux
+- Javascript
 
-### Deployment
+## 📕 Bibliotecas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Esse projeto foi utilizou das seguintes lib:
 
-### `yarn build` fails to minify
+- react-redux
+- react-router-dom
+- axios
+- react-icons
+- firebase
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+Feito com ♥ by SAULO LEOCÁDIO :wave: , qualquer dúvida [SÓ CHAMAR](https://linktr.ee/sauloleocadio)
