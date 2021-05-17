@@ -16,10 +16,10 @@
 <p align="center">
   <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://somapay.netlify.app">Link do deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/Sauloleocadio/challenge-softplan#-demonstra%C3%A7%C3%A3o">Demonstração</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/Sauloleocadio/challenge-softplan#-pr%C3%A9-requisitos">Pré-requisito</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/Sauloleocadio/challenge-softplan#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/Sauloleocadio/challenge-softplan#-licen%C3%A7a">Licença</a>
+  <a href="https://github.com/Sauloleocadio/challenge-somapay#-demonstra%C3%A7%C3%A3o">Demonstração</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Sauloleocadio/challenge-somapay#-pr%C3%A9-requisitos">Pré-requisito</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Sauloleocadio/challenge-somapay#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Sauloleocadio/challenge-somapay#-licen%C3%A7a">Licença</a>
 </p>
 
 ## 🏆 Sobre o desafio
