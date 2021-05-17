@@ -39,7 +39,7 @@ Seu Projeto deve ser em React
 
 ## Informações importantes
 
-1. Segue o link de acesso ao deploy [DESAFIO SOFTPLAN](https://somapay.netlify.app).
+1. Segue o link de acesso ao deploy [DESAFIO SOMAPAY](https://somapay.netlify.app).
 
 ## ✅ Demonstração
 

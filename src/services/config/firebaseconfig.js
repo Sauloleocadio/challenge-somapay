@@ -11,6 +11,17 @@ import firebase from "firebase";
   } = process.env;
 
 
+
+  console.log(
+    REACT_APP_APIFIREBASE_KEY,
+    REACT_APP_AUTHDOMAIN,
+    REACT_APP_PROJECTID,
+    REACT_APP_STORAGEBUCKET,
+    REACT_APP_SENDERID,
+    REACT_APP_APPID,
+    REACT_APP_MEASUREMENTID
+   );
+
 const firebaseConfig = {
   apiKey: REACT_APP_APIFIREBASE_KEY,
   authDomain: REACT_APP_AUTHDOMAIN,
